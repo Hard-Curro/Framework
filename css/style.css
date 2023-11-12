@@ -1,0 +1,737 @@
+/* TEMAS */
+/* Tema 1 */ 
+.theme-1 { 
+  font-family: Arial, sans-serif; 
+  font-size: 16px; 
+  background-color: #f7f3e9; 
+} 
+.theme-1 h1 { 
+  color: #ff7f11; 
+} 
+.theme-1 h2 { 
+  color: #ffac33; 
+} 
+.theme-1 p { 
+  color: #6d6d6d; 
+} 
+.theme-1 p:hover { 
+  color: #8c8c8c; 
+} 
+.theme-1 div { 
+  background-color: #1d2d44; 
+} 
+ 
+/* Tema 2 */ 
+.theme-2 { 
+  font-family: Arial, sans-serif; 
+  font-size: 16px; 
+  background-color: #f3f3f3; 
+} 
+.theme-2 h1 { 
+  color: #1d2d44; 
+} 
+.theme-2 h2 { 
+  color: #3e5c76; 
+} 
+.theme-2 p { 
+  color: #748cab; 
+} 
+.theme-2 p:hover { 
+  color: #52796f; 
+} 
+.theme-2 div { 
+  background-color: #ff6f61; 
+} 
+ 
+/* Tema 3 */ 
+.theme-3 { 
+  font-family: Arial, sans-serif; 
+  font-size: 16px; 
+  background-color: #f7f7f7; 
+} 
+.theme-3 h1 { 
+  color: #1d2d44; 
+} 
+.theme-3 h2 { 
+  color: #3e5c76; 
+} 
+.theme-3 p { 
+  color: #748cab; 
+} 
+.theme-3 p:hover { 
+  color: #52796f; 
+} 
+.theme-3 div { 
+  background-color: #ffcc5c; 
+} 
+/* POSICIONAMIENTO VERTICAL */  
+.vertical-align-top {
+  vertical-align: top;
+}
+
+.vertical-align-middle {
+  vertical-align: middle;
+}
+
+.vertical-align-bottom {
+  vertical-align: bottom;
+}
+
+/* POSICIONAMINETO HORIZONTAL */
+.horizontal-align-left {
+  text-align: left;
+}
+
+.horizontal-align-center {
+  text-align: center;
+}
+
+.horizontal-align-right {
+  text-align: right;
+}
+
+/* CARTAS */
+/*1. Carta basica:*/
+.card {
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 250px;
+  max-height: 300px;
+}
+
+.card .card-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card .card-content {
+  font-size: 14px;
+  color: #666;
+}
+
+/*2. Carta con imagen:*/
+.card-with-image {
+  display: flex;
+  align-items: center;
+  max-width: 350px;
+  max-height: 350px;
+}
+
+.card-with-image .card-image {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.card-with-image .card-details {
+  flex: 1;
+}
+
+.card-with-image .card-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card-with-image .card-content {
+  font-size: 14px;
+  color: #666;
+}
+
+/* 3. Carta destacada: */
+.featured-card {
+  background-color: #ffcc00;
+  color: #333;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 250px;
+  max-height: 300px;
+}
+
+.featured-card .card-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.featured-card .card-content {
+  font-size: 14px;
+  color: #666;
+}
+
+/* HEADERS */
+/* 1. Header básico: */
+.header-basic {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.header-basic .header-title {
+  font-size: 24px;
+  color: #333;
+}
+
+/* 2. Header con menú desplegable: */
+.header-nav {
+  background-color: #f1f1f1;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-nav .header-title {
+  font-size: 24px;
+  color: #333;
+}
+
+.header-nav .header-menu ul {
+  list-style: none;
+  display: flex;
+}
+
+.header-nav .header-menu li {
+  margin-right: 10px;
+}
+
+.header-nav .header-menu a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* 3. Header con barra de búsqueda: */
+.header-bus {
+  background-color: #f1f1f1;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-bus .header-title {
+  font-size: 24px;
+  color: #333;
+}
+
+.header-bus .header-search input[type="text"] {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+.header-bus .header-search button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+}
+
+/* FOOTERS */
+/* 1. Footer básico: */
+.footer-basic {
+  background-color: #f1f1f1;
+  padding: 20px;
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  height: 70px; 
+}
+
+.footer-basic .footer-text {
+  font-size: 14px;
+  color: #333;
+}
+
+/* 2. Footer con enlaces: */
+.footer-nav {
+  background-color: #f1f1f1;
+  padding: 20px;
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px; /* Agrega una altura fija */
+}
+
+.footer-nav .footer-links ul {
+  list-style: none;
+  display: flex;
+}
+
+.footer-nav .footer-links li {
+  margin-right: 10px;
+}
+
+.footer-nav .footer-links a {
+  text-decoration: none;
+  color: #333;
+}
+
+.footer-nav .footer-text {
+  font-size: 14px;
+  color: #333;
+}
+
+/* 3. Footer con información de contacto: */
+.footer-inf {
+  background-color: #f1f1f1;
+  padding: 20px;
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px; /* Agrega una altura fija */
+}
+
+.footer-inf .footer-contact {
+  flex: 1;
+}
+
+.footer-inf .footer-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.footer-inf .footer-info {
+  font-size: 14px;
+  color: #333;
+}
+
+.footer-inf .footer-text {
+  font-size: 14px;
+  color: #333;
+}
+
+/* MENUS LATERALES */
+/* 1. Menú lateral básico */
+/* Estilo para el contenedor del menú */
+.menuL-basico {
+  width: 250px;
+}
+
+/* Estilo para los elementos del menú */
+.menuL-basico .menu-item {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+/* 2. Menú lateral con íconos: */
+/* Estilo para el contenedor del menú */
+.menuL-icono {
+  width: 250px;
+}
+
+/* Estilo para los elementos del menú */
+.menuL-icono .menu-item {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+/* Estilo para los íconos del menú */
+.menuL-icono .icono {
+  width: 25px;
+  height: 25px;
+}
+
+/* Estilo para resaltar el elemento activo */
+.menuL-icono .menu-item.active {
+  background-color: #f0f0f0;
+}
+
+/* 3. Menú lateral desplegable */
+/* Estilo para el contenedor del menú */
+.menuL-desplegable {
+  width: 250px;
+}
+
+/* Estilo para los elementos del menú */
+.menuL-desplegable .menu-item {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Estilo para los submenús desplegables */
+.menuL-desplegable .submenu {
+  display: none;
+}
+
+/* Estilo para mostrar el submenú al hacer hover */
+.menuL-desplegable .menu-item:hover .submenu {
+  display: block;
+}
+
+/* MENUS HORIZONTALES */
+/* 1. Menú horizontal básico: */
+.menuH-basico {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.menuH-basico ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.menuH-basico li {
+  margin-right: 10px;
+}
+
+.menuH-basico a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px;
+}
+
+.menuH-basico a:hover {
+  color: #666;
+}
+
+/* 2. Menú horizontal con submenús desplegables: */
+.menuH-desplegable {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.menuH-desplegable ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.menuH-desplegable li {
+  margin-right: 10px;
+  position: relative;
+}
+
+.menuH-desplegable a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px;
+}
+
+.menuH-desplegable a:hover {
+  color: #666;
+}
+
+.menuH-desplegable .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.menuH-desplegable li:hover .dropdown-content {
+  display: block;
+}
+
+/* 3. Menú horizontal con pestañas: */
+.menuH-pestanas {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.menuH-pestanas ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.menuH-pestanas li {
+  margin-right: 10px;
+}
+
+.menuH-pestanas a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px;
+  border-bottom: 2px solid transparent;
+}
+
+.menuH-pestanas a.active {
+  border-bottom: 2px solid #333;
+}
+
+.menuH-pestanas a:hover {
+  color: #666;
+}
+
+/* ARTICULOS */
+/* 1. Estilo de artículo de blog: */
+.articulo-blog {
+  margin-bottom: 20px;
+  max-width: 200px;
+  max-width: 600px;
+}
+
+.articulo-blog .titulo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.articulo-blog .contenido {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.articulo-blog .autor {
+  font-style: italic;
+  margin-top: 10px;
+}
+
+/* 2. Estilo de artículo de noticias: */
+.articulo-noticias {
+  margin-bottom: 20px;
+  max-width: 200px;
+  max-width: 600px;
+}
+
+.articulo-noticias .titulo {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.articulo-noticias .contenido {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.articulo-noticias .fuente {
+  font-style: italic;
+  margin-top: 10px;
+}
+
+/* 3. Estilo de artículo genérico: */
+.articulo-generico {
+  margin-bottom: 20px;
+  max-width: 200px;
+  max-width: 600px;
+}
+
+.articulo-generico .titulo {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.articulo-generico .contenido {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.articulo-generico .autor {
+  margin-top: 10px;
+}
+
+/* FORMULARIOS */
+/* 1. Formulario básico: */
+.formulario-basico {
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario-basico label {
+  margin-bottom: 5px;
+}
+
+.formulario-basico input,
+.formulario-basico textarea {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.formulario-basico input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.formulario-basico input[type="submit"]:hover {
+  background-color: #666;
+}
+
+/* 2. Formulario con selección de opciones: */
+.formulario-opciones {
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario-opciones label {
+  margin-bottom: 5px;
+}
+
+.formulario-opciones input,
+.formulario-opciones textarea,
+.formulario-opciones select {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.formulario-opciones input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.formulario-opciones input[type="submit"]:hover {
+  background-color: #666;
+}
+
+/* 3. Formulario con casillas de verificación: */
+.formulario-verificacion {
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario-verificacion label {
+  margin-bottom: 5px;
+}
+
+.formulario-verificacion input,
+.formulario-verificacion textarea,
+.formulario-verificacion input[type="checkbox"] {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.formulario-verificacion input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.formulario-verificacion input[type="submit"]:hover {
+  background-color: #666;
+}
+
+/* TRANSICIONES */
+/* 1. Transición de opacidad: */
+.elemento-opacidad {
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+.elemento-opacidad:hover {
+  opacity: 0.5;
+}
+
+/* 2. Transición de cambio de color: */
+.elemento-color {
+  background-color: blue;
+  transition: background-color 0.5s ease;
+}
+
+.elemento-color:hover {
+  background-color: red;
+}
+
+/* 3. Transición de desplazamiento: */
+.elemento-desplazamiento {
+  transform: translateX(0);
+  transition: transform 0.5s ease;
+}
+
+.elemento-desplazamiento:hover {
+  transform: translateX(100px);
+}
+
+/* ANIMACIONES */
+/* 1. Animación de rotación: */
+.elemento-rotacion {
+  animation: rotar 2s infinite;
+}
+
+@keyframes rotar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* 2. Animación de cambio de tamaño: */
+.elemento-tamano {
+  animation: crecer 2s infinite;
+}
+
+@keyframes crecer {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.5);
+  }
+}
+
+/* 3. Animación de cambio de posición: */
+.elemento-posicion {
+  position: relative;
+  animation: mover 2s infinite;
+}
+
+@keyframes mover {
+  from {
+    left: 0;
+  }
+  to {
+    left: 100px;
+  }
+}
+
+/* COSAS DE PA PAGINA */
+
+#navegador ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  
+}
+
+#navegador a{
+  text-decoration: none;
+  
+}
+
+* {
+  margin: 0%;
+  max-width: 100%;
+  max-height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.Menus {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.space {
+  width: 100%;
+  height: 20px;
+}
